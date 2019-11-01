@@ -746,6 +746,27 @@ table {
 }
 
 
+/* Elyass Jan I have added this class*/
+.about {
+  grid-column: 1/2;
+  grid-row: 4;
+  text-align: left;
+  padding: 0px;
+  line-height: 16px;
+  font-size: 90%;
+  color:white;   
+ }
+
+.footer {
+  grid-column: 1/4;
+  grid-row: 4;
+  text-align: center;
+  font-size: 80%;
+  color:white;   
+ }
+
+
+
 
 
 
