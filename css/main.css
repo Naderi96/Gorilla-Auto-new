@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+
+
 /* smalt fönster för Home page */
 @media (max-width: 1000px) 
 {
@@ -55,6 +57,7 @@ table {
       background-color:#35424a;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
     .site {
       display: grid;
       grid-gap: 60px;
@@ -150,6 +153,9 @@ table {
       font-size: 80%;
       padding: 0px;
     }
+
+
+
     .article-image {
       border-radius: 10px 10px 0px 0px; 
     }
@@ -168,18 +174,41 @@ table {
       background-color: #ddd;
       color: black;
     }
-    .footer {
+
+    .aboutus {
       grid-column: 1/3;
       grid-row: 5;
-      font-size: 80%;
       text-align: center;
       padding: 0px 5px 5px 5px;
       margin-bottom: 25px;
+      height: 10px;
+      font-size: 120%;
+      color:white;
+     }
+
+    .about {
+      grid-column: 1/3;
+      grid-row: 5;
+      text-align: center;
+      padding: 0px 5px 5px 5px;
+      margin-bottom: 50px;
+      height: 10px;
+      font-size: 80%;
+      color:white;
+     }
+
+    .footer {
+      grid-column: 1/3;
+      grid-row: 5;
+      text-align: center;
+      padding: 0px 5px 5px 5px;
+      margin-top: 50px;
       height: 10px;
       font-size: 80%;
       color:white;
      }
 }
+
 
 
 
@@ -298,12 +327,37 @@ table {
       color:black;
       transform: scale(1.03);
     }
+
+/* Elyass Jan I have added this class*/
+    .aboutus {
+      grid-column: 1/4;
+      grid-row: 4;
+      text-align: center;
+      padding: 0px;
+      line-height: 16px;
+      font-size: 120%;
+      color:white;   
+     }
+
+    .about {
+      grid-column: 1/4;
+      grid-row: 4;
+      text-align: left;
+      padding: 0px;
+      line-height: 16px;
+      font-size: 80%;
+      color:white;   
+     }
+
     .footer {
       grid-column: 1/4;
       grid-row: 4;
       text-align: center;
+      padding: 0px 5px 5px 5px;
+      margin-bottom: 50px;
+      height: 10px;
       font-size: 80%;
-      color:white;   
+      color:white;  
      }
 }
 
@@ -744,41 +798,5 @@ table {
       padding-top: 15%;
     }
 }
-
-
-/* Elyass Jan I have added this class*/
-.about {
-  grid-column: 1/2;
-  grid-row: 4;
-  text-align: left;
-  padding: 0px;
-  line-height: 16px;
-  font-size: 90%;
-  color:white;   
- }
-
-.footer {
-  grid-column: 1/4;
-  grid-row: 4;
-  text-align: center;
-  font-size: 80%;
-  color:white;   
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
