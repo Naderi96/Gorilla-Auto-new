@@ -164,7 +164,7 @@ table {
       padding: 0% 5% 0% 5%;
     }
     .article-button {
-      background-color:red;
+      background-color:#B30000;
       color: white;
       border-radius: 5px;
       padding: 5px;
@@ -315,7 +315,7 @@ table {
       padding: 0% 1% 1% 1%;
     }
     .article-button {
-      background-color:red;
+      background-color:#B30000;
       color: white;
       border-radius: 5px;
       padding: 5px;
@@ -537,7 +537,7 @@ table {
    font-size: 100%;
   }
   .car-button {
-   background-color:red;
+   background-color:#B30000;
    color: white;
    border-radius: 5px;
    padding: 5px;
