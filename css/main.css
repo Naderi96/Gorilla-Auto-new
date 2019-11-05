@@ -52,6 +52,11 @@ table {
 /* smalt fönster för Our car brands start*/
 @media (min-width: 420px) 
 {
+
+  .car-logotext{
+    color:white;
+
+  }
   .brands-logo {
     width: 100%;
     position: relative;
@@ -255,6 +260,10 @@ table {
 
 
      /* mellan fönster för Our car brands */
+     .car-logotext{
+      color:white;
+      
+    }
      .brands-logo {
        width: 80%;
        position: relative;
@@ -434,44 +443,50 @@ table {
      }
 
 
-/* Brett fönster för Our car brands START  */
-     .brands-logo {
-       width: 80%;
-       position: relative;
-       left: 0;
-       top: 5em;
-       overflow: hidden;
-       margin: auto;
-      }
+  /* Brett fönster för Our car brands START  */
+  .brands-logo {
+  width: 80%;
+  position: relative;
+  left: 0;
+  top: 5em;
+  overflow: hidden;
+  margin: auto;
+  }
 
-      .brands-logo .brands-wrapper {
-        width: 49.5%;
-        height: 250px;
-        display: inline-block;
-        margin: auto;
-        position: relative;
-        overflow: hidden;
-       }
 
-       .brands-logo .brands-wrapper img {
-         width: 50%;
-         position: absolute;
-         top: 50%;
-         left: 50%;
-         transform: translate(-50%, -50%);
-        }
+.car-logotext{
+color:white;
+        
+}
+.brands-logo .brands-wrapper {
+ width: 49.5%;
+height: 250px;
+display: inline-block;
+margin: auto;
+position: relative;
+overflow: hidden;
+}
 
-    .footer {
-      grid-column: 1/4;
-      grid-row: 4;
-      text-align: center;
-      padding: 0px 5px 5px 5px;
-      margin-bottom: 50px;
-      height: 10px;
-      font-size: 80%;
-      color:white;
-      margin: 15em;
-     }
+.brands-logo .brands-wrapper img {
+ width: 50%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.footer {
+grid-column: 1/4;
+grid-row: 4;
+text-align: center;
+padding: 0px 5px 5px 5px;
+margin-bottom: 50px;
+height: 10px;
+font-size: 80%;
+color:white;
+margin: 15em;
+
+ }
 }
 
 /* BRETT FÖNSTER OUR CAR BRANDS */
