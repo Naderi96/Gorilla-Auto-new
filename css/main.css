@@ -50,8 +50,8 @@ table {
 
 
 /* smalt fönster för Our car brands start*/
-@media (min-width: 420px) {
-
+@media (max-width: 1000px) 
+{
   .brands-logo {
     width: 100%;
     position: relative;
